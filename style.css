@@ -182,3 +182,21 @@ button {
 button:active {
     transform: scale(0.95);
 }
+#mic {
+    background: #000;
+    color: #00ffff;
+    border: 1px solid #00ffff;
+    padding: 10px 14px;
+    font-size: 18px;
+    box-shadow: 0 0 12px #00ffff;
+}
+
+#mic:active {
+    background: #00ffff;
+    color: #000;
+    transform: scale(0.9);
+}
+
+#mic:disabled {
+    opacity: 0.5;
+}
